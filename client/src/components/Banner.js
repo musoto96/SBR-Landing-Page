@@ -9,10 +9,10 @@ export default function Banner() {
                Consultoría en Big Data y Análisis de Datos
             </p>
             <p className='brand-description'>
-            SBR es un servicio de consultoría empresarial que proporciona información detallada para permitir la toma de decisiones rápidas e informadas.
-            Transformamos grandes volúmenes de datos para crear inteligencia en su negocio.
-            <br/><br/>
-            SBR colabora con las empresas a descubrir en sus datos la información útil. Diseñamos dashboards que generan un impacto positivo en su empresa. 
+               SBR es un servicio de consultoría empresarial que proporciona información detallada para permitir la toma de decisiones rápidas e informadas.
+               <br/>
+               <br/>
+               Transformamos grandes volúmenes de datos para crear inteligencia en su negocio.
             </p>
          </div>
          <div className='illustration-box'>
