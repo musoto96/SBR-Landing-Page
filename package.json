@@ -4,9 +4,9 @@
   "description": "Landing Page Statistical Bureau For Research",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js", 
+    "start": "node index.js",
     "server": "nodemon index.js",
-    "client": "npm start --prefix client", 
+    "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Moisés Soto",

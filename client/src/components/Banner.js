@@ -6,14 +6,13 @@ export default function Banner() {
       <div className='banner-container'>
          <div className='card'>
             <p className='card-title'>
-               Consultoría de Big Data y Análisis de Datos
+               Consultoría en Big Data y Análisis de Datos
             </p>
-            <p>
-            SBR es un servicio de consultoría empresarial que proporciona información detallada para permitir la toma de decisiones rápidas e informadas.
-            Transformamos grandes volúmenes de datos para crear inteligencia en su negocio.
-            </p>
-            <p>
-            SBR colabora con las empresas a descubrir en sus datos la información útil. Diseñamos dashboards que generan un impacto positivo en su empresa. 
+            <p className='brand-description'>
+               SBR es un servicio de consultoría empresarial que proporciona información detallada para permitir la toma de decisiones rápidas e informadas.
+               <br/>
+               <br/>
+               Transformamos grandes volúmenes de datos para crear inteligencia en su negocio.
             </p>
          </div>
          <div className='illustration-box'>

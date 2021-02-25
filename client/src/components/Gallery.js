@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 export default function Gallery() {
    return (
-      <div className='banner-container'>
-         <h1 className='gallery-title'>
+      <div className='container'>
+         <h1 className='light-title'>
             Galería
          </h1>
          <div className='gallery-card'>
