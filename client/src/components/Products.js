@@ -1,6 +1,17 @@
 import React from 'react';
 import { Controller, Scene } from 'react-scrollmagic';
 
+import forecast from '../assets/img/products/forecast.png';
+import satisfaction from '../assets/img/products/satisfaction.png';
+import pricing from '../assets/img/products/pricing.png';
+import dashboard from '../assets/img/products/dashboard.png';
+import mktsegment from '../assets/img/products/mktsegment.png';
+import customermigration from '../assets/img/products/customermigration.png';
+import snanalisis from '../assets/img/products/snanalisis.png';
+import surveying from '../assets/img/products/surveying.png';
+
+//SBR colabora con las empresas a descubrir en sus datos la información útil. Diseñamos dashboards que generan un impacto positivo en su empresa. 
+
 export default function Products() {
    return (
       <div className='products-container'>
@@ -11,7 +22,6 @@ export default function Products() {
                      <div className='products-fixed-content'>
                         <h1>NUESTRAS SOLUCIONES</h1>
                         <p>
-                           SBR colabora con las empresas a descubrir en sus datos la información útil. Diseñamos dashboards que generan un impacto positivo en su empresa. 
                         </p>
                      </div>
                   </div>
@@ -30,6 +40,7 @@ export default function Products() {
          </div>
          <div className='products-scroll'>
             <div>
+               <img className='products-item' src={forecast} alt='forecast.png'/>
                <h1>
                   Modelos de Predicción
                </h1>
@@ -44,6 +55,7 @@ export default function Products() {
             </div>
 
             <div>
+               <img className='products-item' src={satisfaction} alt='satisfaction.png'/>
                <h1>
                   Modelo de Satisfacción del Cliente
                </h1>
@@ -58,6 +70,7 @@ export default function Products() {
             </div>
 
             <div>
+               <img className='products-item' src={pricing} alt='pricing.png'/>
                <h1>
                   Determinación de Precios
                </h1>
@@ -72,6 +85,7 @@ export default function Products() {
             </div>
 
             <div>
+               <img className='products-item' src={dashboard} alt='dashboard.png'/>
                <h1>
                   Dashboard
                </h1>
@@ -86,6 +100,7 @@ export default function Products() {
             </div>
 
             <div>
+               <img className='products-item' src={mktsegment} alt='mktsegment.png'/>
                <h1>
                   Segmentación de Mercado
                </h1>
@@ -100,6 +115,7 @@ export default function Products() {
             </div>
 
             <div>
+               <img className='products-item' src={customermigration} alt='customermigration.png'/>
                <h1>
                   Migración de Clientes
                </h1>
@@ -114,6 +130,7 @@ export default function Products() {
             </div>
 
             <div>
+               <img className='products-item' src={snanalisis} alt='snanalisis.png'/>
                <h1>
                   Análisis de Redes Sociales
                </h1>
@@ -128,6 +145,7 @@ export default function Products() {
             </div>
 
             <div>
+               <img className='products-item' src={surveying} alt='surveying.png'/>
                <h1>
                   Levantamiento de Encuestas
                </h1>

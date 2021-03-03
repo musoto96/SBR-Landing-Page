@@ -1,5 +1,4 @@
 import React from 'react';
-import {ReactComponent as Data} from '../assets/svg/data.svg';
 
 export default function Banner() {
    return (
@@ -14,9 +13,6 @@ export default function Banner() {
                <br/>
                Transformamos grandes volúmenes de datos para crear inteligencia en su negocio.
             </p>
-         </div>
-         <div className='illustration-box'>
-            <Data className='illustration' />
          </div>
       </div>
    )
