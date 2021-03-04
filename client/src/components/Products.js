@@ -32,9 +32,6 @@ export default function Products() {
             <div className='products-fixed'>
                <div className='products-fixed-content'>
                   <h1>NUESTRAS SOLUCIONES</h1>
-                  <p>
-                     SBR colabora con las empresas a descubrir en sus datos la información útil. Diseñamos dashboards que generan un impacto positivo en su empresa. 
-                  </p>
                </div>
             </div>
          </div>
@@ -79,7 +76,7 @@ export default function Products() {
                   <br/>
                   <br/>
                   <span className='eng-translation'>
-                     Statistical models application and competitor analysis to create pricing strategies involving the nature of the company, customers and market.
+                     Applied statistical models and competitor analysis for pricing strategies involving the nature of the company, customers and market.
                   </span>
                </p>
             </div>
@@ -94,7 +91,7 @@ export default function Products() {
                   <br/>
                   <br/>
                   <span className='eng-translation'>
-                     Graphical user interface which provides Key Performance Indicators (KPIs) relevant to a particular objective or business process. The goal of a dashboard is to help the company to make strategical decisions.
+                     Graphical user interface for Key Performance Indicators (KPIs) relevant to a particular objective or business process, in order to make strategical decisions.
                   </span>
                </p>
             </div>
@@ -109,7 +106,7 @@ export default function Products() {
                   <br/>
                   <br/>
                   <span className='eng-translation'>
-                     Process of dividing a target market into smaller groups that share similar characteristics to create more effective marketing campaigns,
+                     Dividing a target market into smaller groups that share similar characteristics for more effective marketing campaigns.
                   </span>
                </p>
             </div>
@@ -124,7 +121,7 @@ export default function Products() {
                   <br/>
                   <br/>
                   <span className='eng-translation'>
-                     Understanding the patterns of the shifting customers from one segment to another in order to reach out current or potential cutomers.
+                     Identifying and understanding the shift patterns of customers from one segment to another in order to reach current or potential cutomers.
                   </span>
                </p>
             </div>
@@ -139,7 +136,7 @@ export default function Products() {
                   <br/>
                   <br/>
                   <span className='eng-translation'>
-                     Data analysis and interpretation of the social networks such as Faceebok, Instagram and Twitter in order to form conclusions upon users and act upon the information.
+                     Data analysis and interpretation of popular social networks such as Facebok, Instagram and Twitter in order to make assessments and take decisions.
                   </span>
                </p>
             </div>
@@ -154,7 +151,7 @@ export default function Products() {
                   <br/>
                   <br/>
                   <span className='eng-translation'>
-                     Gathering of critical information for market investigations by contacting a sample that represents the target audience.
+                     Gathering of critical information for market analysis by contacting a sample that represents the target audience.
                   </span>
                </p>
             </div>
