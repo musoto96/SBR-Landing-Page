@@ -3,7 +3,7 @@ import React from 'react';
 export default function Banner() {
    return (
       <div className='banner-container'>
-         <div className='card'>
+         <div className='banner-card'>
             <p className='card-title'>
                Consultoría en Big Data y Análisis de Datos
             </p>

@@ -19,7 +19,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   min-height: 8vh;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(20, 20, 20);
   box-shadow: 0px 1px 15px lightgray;
 }
 
@@ -43,11 +43,12 @@ nav {
   letter-spacing: 3px;
   font-weight: 300;
   font-size: small;
-  color: black;
+  color: white;
   text-align: center;
 }
 .brand-description {
   margin: 50px 0px 50px 0px;
+  color: white;
   font-size: small;
 }
 
@@ -66,15 +67,16 @@ nav {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: black;
+  color: rgb(150, 150, 150);
 }
 
 .nav-icon {
   padding-right: 5px;
-  color: black;
+  color: white;
 }
 
 .nav-menu {
+  color: rgb(150, 150, 150);
   display: none;
   margin: 5px;
 }
@@ -82,18 +84,21 @@ nav {
 .banner-container {
   margin: 50px 0px 50px 0px;
   padding: 50px 0px 50px 0px;
+  height: 60vh;
   background-image: url(assets/img/banner.png);
   background-position: 80% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   box-shadow: 0px 1px 15px lightgray;
 }
-.card {
+.banner-card {
   padding: 0px 50px 0px 50px;
   margin: 10px 0px 10px 0px;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(20, 20, 20);
+  color: rgb(50, 150, 50);
   box-shadow: 0px 1px 10px -5px rgb(87, 87, 87);
   max-width: 400px;
   text-justify: auto;
@@ -122,12 +127,15 @@ nav {
 .products-container {
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
+  box-shadow: 0px 1px 15px lightgray;
 }
 .products-fixed{
   display: flex;
   margin: 0;
   padding: 0;
   justify-content: center;
+  background-color: rgb(20, 20, 20);
+  color: rgb(50, 150, 50);
 }
 .products-fixed-content {
   width: 60%;
@@ -182,20 +190,14 @@ nav {
 
 .customers-card {
   width: 100%;
-  height: 100px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-  margin: 10px 0px 10px 0px;
-  background-color: rgb(245, 245, 245);
+  background-color: white;
   box-shadow: 0px 1px 10px -5px rgb(87, 87, 87);
   text-justify: auto;
 }
 .customers-item {
+  justify-content: center;
   padding: 40px 20px 40px 20px;
-  display: block;
-  text-decoration: none;
   height: 50px;
 }
 
@@ -238,7 +240,7 @@ nav {
     font-size: large;
   }
   .nav-links {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(20, 20, 20);
     height: 90vh;
     width: 100%;
     position: absolute;
