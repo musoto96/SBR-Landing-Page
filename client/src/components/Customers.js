@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Carousel from 'react-elastic-carousel';
 
 import cfe from '../assets/img/cfe.jpg';
@@ -10,7 +10,7 @@ import udelasalle from '../assets/img/ulasalle.png';
 
 
 export default function Customers() {
-   const customers = [cfe, bader, florsheim, ieeg, perugia, udelasalle];
+   const customers = [cfe, bader, florsheim, ieeg, udelasalle, perugia];
    const breakPoints = [
       { width: 1, itemsToShow: 1 }, 
       { width: 320, itemsToShow: 2 }, 
@@ -22,7 +22,7 @@ export default function Customers() {
    return (
       <div className='container'>
          <div className='customers-card'>
-            <Carousel breakPoints={breakPoints}>
+            <Carousel breakPoints={breakPoints} showArrows={false}>
                {customers.map((logo, idx) => {
                   return(<img className='customers-item' src={logo} alt={idx}/>)
                })}

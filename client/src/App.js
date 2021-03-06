@@ -3,6 +3,7 @@ import Banner from './components/Banner';
 import Products from './components/Products';
 import Customers from './components/Customers';
 import Gallery from './components/Gallery';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Products />
       <Customers />
       <Gallery />
+      <Footer />
     </div>
   );
 }
