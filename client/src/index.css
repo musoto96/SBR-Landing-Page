@@ -198,7 +198,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
 }
 .demos-container h1 {
   width: 100%;
@@ -216,13 +216,18 @@ nav {
 .demos-card {
   margin: 50px;
   padding: 20px;
-  max-width: 600px;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   background-color: rgb(245, 245, 245);
   box-shadow: 0px 1px 10px -5px rgb(87, 87, 87);
   text-justify: auto;
+}
+.demos-card > div {
+  max-width: 500px;
+  padding: 40px;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 0px 1px 10px -5px rgb(87, 87, 87);
 }
 .demos-item {
   display: block;
