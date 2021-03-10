@@ -4,7 +4,7 @@ import { GrFacebookOption, GrTwitter, GrGithub } from 'react-icons/gr';
 export default function Footer() {
    return (
       <div className='footer'>
-         &copy; 2021
+         &copy; 2021 Statistical Bureau for Research
          <ul className='social-media'>
             <h1>
                Redes

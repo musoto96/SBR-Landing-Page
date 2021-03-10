@@ -1,21 +1,26 @@
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
 import Navbar from './components/Navbar';
-import Banner from './components/Banner';
-import Products from './components/Products';
-import Customers from './components/Customers';
-import Gallery from './components/Gallery';
+import Home from './components/Home';
+import About from './components/About';
+import Principles from './components/Principles';
+import Values from './components/Values';
 import Footer from './components/Footer';
-//import About from './components/About';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Banner />
-      <Products />
-      <Customers />
-      <Gallery />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/principles" component={Principles} />
+          <Route path="/values" component={Values} />
+        </Switch>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

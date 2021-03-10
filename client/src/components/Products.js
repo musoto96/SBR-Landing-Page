@@ -57,11 +57,11 @@ export default function Products() {
                   Modelo de Satisfacción del Cliente
                </h1>
                <p>
-                  Herramienta para identificar los atributos valorados por los clientes así como el Net Promoter Score y tomar decisiones respecto a ello.
+                  Herramienta para identificar los atributos valorados por los clientes así como el Net Promoter Score y tomar decisiones.
                   <br/>
                   <br/>
                   <span className='eng-translation'>
-                     Quality management and marketing techniques that help manufacturers and sellers to identify customer’s expectations, perceived quality and the Net Promoter Score in order to offer better products.
+                     Quality management and marketing techniques that help manufacturers and sellers to identify customer’s expectations, perceived quality and the Net Promoter Score.
                   </span>
                </p>
             </div>
@@ -117,7 +117,7 @@ export default function Products() {
                   Migración de Clientes
                </h1>
                <p>
-                  Entender el comportamiento del cambio de los clientes de un segmento a otro, identificar las causas y llegar a potenciales clientes..
+                  Entender el comportamiento del cambio de los clientes de un segmento a otro, identificar las causas y llegar a potenciales clientes.
                   <br/>
                   <br/>
                   <span className='eng-translation'>
