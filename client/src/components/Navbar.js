@@ -13,7 +13,7 @@ function Navbar() {
             <a href='#' rel='noreferrer'>
                <img className='logo' alt='logo-RR' src={logo}/>
             </a>
-            <p className='brandName'>
+            <p className='brand-name'>
                Statistical Bureau for Research
             </p>
          </div>

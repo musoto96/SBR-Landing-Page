@@ -12,8 +12,7 @@ import udelasalle from '../assets/img/ulasalle.png';
 export default function Customers() {
    const customers = [cfe, bader, florsheim, ieeg, udelasalle, perugia];
    const breakPoints = [
-      { width: 1, itemsToShow: 1 }, 
-      { width: 320, itemsToShow: 2 }, 
+      { width: 320, itemsToShow: 1 }, 
       { width: 768, itemsToShow: 3 }, 
       { width: 1025, itemsToShow: 4 }, 
       { width: 1201, itemsToShow: 5 }

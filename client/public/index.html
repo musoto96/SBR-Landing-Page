@@ -2,12 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, shrink-to-fit=no" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Statistical Bureau for Research"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/sbr-logo.png" />
     <!--
@@ -27,7 +25,36 @@
     <title>Galería SBR</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+       window.fbAsyncInit = function() {
+                 FB.init({ 
+                           xfbml: true,
+                           version: 'v10.0'
+                        });
+              };
+       (function(d, s, id) {
+                 var js, fjs = d.getElementsByTagName(s)[0];
+                 if (d.getElementById(id)) return;
+                 js = d.createElement(s); js.id = id;
+                 js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                 fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" 
+         attribution="setup_tool"
+         page_id="438988772898691"
+         theme_color="#67b868"
+         logged_in_greeting="Hola! ¿En que podemos servirle?"
+         logged_out_greeting="Hola! ¿En que podemos servirle?"
+         minimized="true">
+    </div>
+
+    <noscript>Es necesario habilitar Javascript.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.

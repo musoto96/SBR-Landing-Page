@@ -4,6 +4,7 @@ import Products from './components/Products';
 import Customers from './components/Customers';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
+//import About from './components/About';
 
 function App() {
   return (
