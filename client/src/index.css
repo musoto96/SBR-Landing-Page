@@ -33,6 +33,9 @@ nav {
   background-color: rgb(20, 20, 20);
   box-shadow: 0px 1px 15px lightgray;
 }
+nav a {
+  text-decoration: none;
+}
 .logo-container {
   display: flex;
   flex-direction: column;
@@ -40,7 +43,6 @@ nav {
   align-items: center;
   margin-right: 10px;
   margin-left: 10px;
-  text-decoration: none;
 }
 .logo {
   height: 60px;
@@ -90,6 +92,9 @@ nav {
   cursor: pointer;
   text-align: center;
 }
+.nav-dropdown p:hover {
+  color: white;
+}
 .nav-dropdown-content {
   display: none;
   position: absolute;
@@ -104,8 +109,8 @@ nav {
   width: 100%;
 }
 .nav-dropdown-content a p:hover {
-  color: rgb(200, 200, 200);
-  background-color: rgb(10, 10, 10);
+  color: white;
+  background-color: rgb(0, 0, 0);
 }
 .nav-links:hover .nav-dropdown-content {
   display: flex;

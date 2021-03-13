@@ -10,19 +10,19 @@ export default function Footer() {
                Redes
             </h1>
             <li>
-               <a href='https://www.facebook.com/SBRmex'>
+               <a rel='noopener noreferer' target='_blank' href='https://www.facebook.com/SBRmex'>
                   <GrFacebookOption className='nav-icon'/>
                   Compartir
                </a>
             </li>
             <li>
-               <a href='https://twitter.com/sbr_mx'>
+               <a rel='noopener noreferer' target='_blank' href='https://twitter.com/sbr_mx'>
                   <GrTwitter className='nav-icon'/>
                   Tweet
                </a>
             </li>
             <li>
-               <a href='#'>
+               <a rel='noopener noreferer' target='_blank' href='#'>
                   <GrGithub className='nav-icon'/>
                   GitHub
                </a>
