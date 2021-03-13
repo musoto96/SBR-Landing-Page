@@ -19,10 +19,14 @@ code {
 
 .page-title {
   font-weight: 300;
+  padding: 0 0 10vh 0;
 }
 .page-wrapper {
-  max-width: 80%;
+  max-width: 50%;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10vh 0 10vh 0;
 }
 
 nav {
@@ -74,6 +78,7 @@ nav a {
   font-size: small;
 }
 .nav-links li a, .nav-links li p {
+  margin: 0px;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -89,30 +94,33 @@ nav a {
   margin: 5px;
 }
 .nav-dropdown {
+  margin: 10px;
+  padding: 10px;
   cursor: pointer;
   text-align: center;
 }
-.nav-dropdown p:hover {
+.nav-dropdown:hover p{
   color: white;
 }
 .nav-dropdown-content {
+  padding: 10px 0px 0px 0px;
   display: none;
   position: absolute;
   background-color: rgb(20, 20, 20);
   text-align: center;
 }
 .nav-dropdown-content a p {
-  margin: 0;
-  padding: 0px 20px 0px 20px;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 10px 0px 10px;
   font-size: x-small;
   height: 40px;
   width: 100%;
 }
 .nav-dropdown-content a p:hover {
   color: white;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(10, 10, 10);
 }
-.nav-links:hover .nav-dropdown-content {
+.nav-dropdown:hover .nav-dropdown-content {
   display: flex;
   flex-direction: column;
 }
@@ -313,7 +321,6 @@ nav a {
 .about-description {
   text-align: justify;
   text-justify: inter-word;
-  padding: 20px 0px 20px 0px;
 }
 .li-profile {
   text-decoration: none;
@@ -335,6 +342,10 @@ nav a {
 @media screen and (max-width: 850px) {
   .illustration {
     display: none;
+  }
+  .page-wrapper {
+    max-width: 80%;
+    padding: 5vh 0 5vh 0;
   }
 }
 
