@@ -31,7 +31,7 @@ code {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   min-height: 10vh;
   background-color: rgb(20, 20, 20);
@@ -71,7 +71,6 @@ nav a {
   margin: 0px;
   padding: 0px;
   display: flex;
-  width: 40%;
   justify-content: space-around;
   list-style: none;
   letter-spacing: 2px;
