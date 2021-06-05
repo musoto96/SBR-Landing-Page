@@ -9,6 +9,19 @@ export default function Gallery() {
          </h1>
          <Carousel className='demos-card' pagination={false}>
             <div>
+               <h2>Política</h2>
+               <p className='demo-title'>
+                  Plataforma de análisis político.
+               </p>
+               <p className='demo-description'>
+                  Plataforma de análisis político histórico con poderosos filtros, herramientas comparativas y análisis geográfico
+               </p>
+               <a href={'http://politica.sbr-mx.com'} 
+                  rule='noopener noreferer' target='_blank' className='demos-item'>
+                  <p>Ir a demo</p>
+               </a>
+            </div>
+            <div>
                <h2>Agua potable</h2>
                <p className='demo-title'>
                   Negocio de agua potable, producto de primera necesidad.
@@ -55,7 +68,7 @@ export default function Gallery() {
                <p className='demo-description'>
                   Donde la temporada, moda y tendencias son lo primordial para maximizar ventas, la información de series de tiempo es invaluable para este negocio.
                </p>
-               <a href={'http://' + window.location.host.replace(/:[0-9][0-9][0-9][0-9]/, '') + '/#'} 
+               <a href={'http://' + window.location.host.replace(/:[0-9][0-9][0-9][0-9]/, '') + ':8563'} 
                   rule='noopener noreferer' target='_blank' className='demos-item'>
                   <p>Ir a demo</p>
                </a>
