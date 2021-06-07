@@ -14,7 +14,7 @@ export default function Gallery() {
                   Plataforma de análisis político.
                </p>
                <p className='demo-description'>
-                  Plataforma de análisis político histórico con poderosos filtros, herramientas comparativas y análisis geográfico
+                  Plataforma de análisis político histórico con poderosos filtros, herramientas comparativas y análisis geográfico.
                </p>
                <a href={'http://politica.sbr-mx.com'} 
                   rule='noopener noreferer' target='_blank' className='demos-item'>
@@ -22,12 +22,25 @@ export default function Gallery() {
                </a>
             </div>
             <div>
-               <h2>Agua potable</h2>
+               <h2>Elecciones León, Gto</h2>
                <p className='demo-title'>
-                  Negocio de agua potable, producto de primera necesidad.
+                  Análisis estadístico avanzado de elecciones.
                </p>
                <p className='demo-description'>
-                  En este negocio se depura y distribuye agua el agua a través de un vehículo.
+                  Plataforma de análisis de elecciones, partidos y votantes de León de los Aldama.
+               </p>
+               <a href={'http://' + window.location.host.replace(/:[0-9][0-9][0-9][0-9]/, '') + ':8562'} 
+                  rule='noopener noreferer' target='_blank' className='demos-item'>
+                  <p>Ir a demo</p>
+               </a>
+            </div>
+            <div>
+               <h2>Agua potable</h2>
+               <p className='demo-title'>
+                  Negocio de agua potable.
+               </p>
+               <p className='demo-description'>
+                  En este negocio se depura y distribuye agua, producto de primera necesidad, a través de un vehículo.
                </p>
                <a href={'http://' + window.location.host.replace(/:[0-9][0-9][0-9][0-9]/, '') + ':8566'} 
                   rule='noopener noreferer' target='_blank' className='demos-item'>
