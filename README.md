@@ -1,8 +1,9 @@
 # SBR-Landing-Page
-<br>
+
+
 [Statistical Bureau for Research landing page](https://sbr-mx.com)
-<br>
-<br>
+
+
 File structure
 
 ```
@@ -11,7 +12,6 @@ File structure
 │   ├── asset-manifest.json
 │   ├── favicon.ico
 │   ├── index.html
-│   ├── index.html~
 │   ├── manifest.json
 │   ├── robots.txt
 │   ├── sbr-favicon.svg
@@ -51,7 +51,6 @@ File structure
 │   ├── public
 │   │   ├── favicon.ico
 │   │   ├── index.html
-│   │   ├── index.html~
 │   │   ├── manifest.json
 │   │   ├── robots.txt
 │   │   ├── sbr-favicon.svg
@@ -59,7 +58,6 @@ File structure
 │   ├── README.md
 │   └── src
 │       ├── App.js
-│       ├── App.js~
 │       ├── assets
 │       │   ├── img
 │       │   │   ├── ab_bg1.eps
@@ -87,42 +85,26 @@ File structure
 │       │   │   └── data.svg
 │       │   └── txt
 │       │       ├── pincipiosEticos.txt
-│       │       ├── pincipiosEticos.txt~
-│       │       ├── valoresProfesionalesCompartidos.txt
-│       │       └── valoresProfesionalesCompartidos.txt~
+│       │       └── valoresProfesionalesCompartidos.txt
 │       ├── components
 │       │   ├── About.js
-│       │   ├── About.js~
 │       │   ├── Banner.js
-│       │   ├── Banner.js~
 │       │   ├── Customers.js
-│       │   ├── Customers.js~
 │       │   ├── Footer.js
-│       │   ├── Footer.js~
 │       │   ├── Gallery.js
-│       │   ├── Gallery.js~
 │       │   ├── Home.js
-│       │   ├── Home.js~
 │       │   ├── Navbar.js
-│       │   ├── Navbar.js~
 │       │   ├── Principles.js
-│       │   ├── Principles.js~
 │       │   ├── Products.js
-│       │   ├── Products.js~
-│       │   ├── Values.js
-│       │   └── Values.js~
+│       │   └── Values.js
 │       ├── index.css
-│       ├── index.css~
-│       ├── index.js
-│       └── index.js~
+│       └── index.js
 ├── index_dev.js
 ├── index.js
-├── index.js~
 ├── make_build.sh
-├── make_build.sh~
 ├── package.json
 ├── package-lock.json
 └── README.md
 
 ```
-14 directories, 102 files
+14 directories, 83 files
