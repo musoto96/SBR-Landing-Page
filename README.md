@@ -8,43 +8,6 @@ File structure
 
 ```
 .
-├── build
-│   ├── asset-manifest.json
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── manifest.json
-│   ├── robots.txt
-│   ├── sbr-favicon.svg
-│   ├── sbr-logo.png
-│   └── static
-│       ├── css
-│       │   ├── main.5f852b93.chunk.css
-│       │   └── main.5f852b93.chunk.css.map
-│       ├── js
-│       │   ├── 2.b83a2c09.chunk.js
-│       │   ├── 2.b83a2c09.chunk.js.LICENSE.txt
-│       │   ├── 2.b83a2c09.chunk.js.map
-│       │   ├── main.43f72c53.chunk.js
-│       │   ├── main.43f72c53.chunk.js.map
-│       │   ├── runtime-main.c012fedc.js
-│       │   └── runtime-main.c012fedc.js.map
-│       └── media
-│           ├── bader.3efd0fb3.png
-│           ├── banner.8ebacee7.png
-│           ├── cfe.82669736.jpg
-│           ├── customermigration.b3b62294.png
-│           ├── dashboard.3b0d9573.png
-│           ├── forecast.be7ce6c8.png
-│           ├── fs.678804fe.png
-│           ├── ieeg.86399ce2.png
-│           ├── mktsegment.8f473002.png
-│           ├── perugia.5087d54a.png
-│           ├── pricing.c839cfb2.png
-│           ├── satisfaction.9fdc88f6.png
-│           ├── sbr-logo.b3afa480.png
-│           ├── snanalisis.c21904c7.png
-│           ├── surveying.40882ebc.png
-│           └── ulasalle.85b4895b.png
 ├── client
 │   ├── package.json
 │   ├── package-lock.json
@@ -105,6 +68,5 @@ File structure
 ├── package.json
 ├── package-lock.json
 └── README.md
-
 ```
-14 directories, 83 files
+9 directories, 51 files

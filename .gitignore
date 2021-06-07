@@ -2,3 +2,4 @@ node_modules
 *~*
 *.swp
 build
+client/public/index.html
