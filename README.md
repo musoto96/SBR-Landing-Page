@@ -1,7 +1,7 @@
 # SBR-Landing-Page
 
 
-[Statistical Bureau for Research landing page](https://sbr-mx.com)
+[Statistical Bureau for Research](https://sbr-mx.com)
 
 
 File structure
