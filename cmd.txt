@@ -1,0 +1,1 @@
+docker pull musoto96/encuestas2:silao && docker pull musoto96/encuestas2:leon && docker pull musoto96/pol21:1.0 && docker pull musoto96/sna:1.0 && docker pull musoto96/2mdb:1.0 && docker pull musoto96/aguadb:1.0 && docker pull musoto96/shelldb:1.0
