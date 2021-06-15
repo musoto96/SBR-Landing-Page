@@ -29,7 +29,7 @@ export default function Gallery() {
                <p className='demo-description'>
                   Plataforma de análisis de elecciones, partidos y votantes de León de los Aldama.
                </p>
-               <a href={'http://' + window.location.host.replace(/:[0-9][0-9][0-9][0-9]/, '') + ':8562'} 
+               <a href={'http://leon.sbr-mx.com'} 
                   rule='noopener noreferer' target='_blank' className='demos-item'>
                   <p>Ir a demo</p>
                </a>
@@ -42,7 +42,7 @@ export default function Gallery() {
                <p className='demo-description'>
                   En este negocio se depura y distribuye agua, producto de primera necesidad, a través de un vehículo.
                </p>
-               <a href={'http://' + window.location.host.replace(/:[0-9][0-9][0-9][0-9]/, '') + ':8566'} 
+               <a href={'http://demoagua.sbr-mx.com'} 
                   rule='noopener noreferer' target='_blank' className='demos-item'>
                   <p>Ir a demo</p>
                </a>
@@ -55,7 +55,7 @@ export default function Gallery() {
                <p className='demo-description'>
                   En este negocio el cuidado y el control lo son todo para lograr tener la preferencia de los clientes.
                </p>
-               <a href={'http://' + window.location.host.replace(/:[0-9][0-9][0-9][0-9]/, '') + ':8564'} 
+               <a href={'http://demo2m.sbr-mx.com'} 
                   rule='noopener noreferer' target='_blank' className='demos-item'>
                   <p>Ir a demo</p>
                </a>
@@ -68,7 +68,7 @@ export default function Gallery() {
                <p className='demo-description'>
                   En un negocio de alta competitividad como este, es indispensable tener información sintetizada lista para ser analizada.
                </p>
-               <a href={'http://' + window.location.host.replace(/:[0-9][0-9][0-9][0-9]/, '') + ':8565'} 
+               <a href={'http://demoshell.sbr-mx.com'} 
                   rule='noopener noreferer' target='_blank' className='demos-item'>
                   <p>Ir a demo</p>
                </a>
