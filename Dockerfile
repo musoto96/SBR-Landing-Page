@@ -13,6 +13,6 @@ COPY . .
 RUN chmod +x make_build.sh
 RUN bash make_build.sh
 
-EXPOSE 8888
+EXPOSE 5000
 
 CMD ["npm", "start"]

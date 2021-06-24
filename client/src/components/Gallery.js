@@ -81,7 +81,7 @@ export default function Gallery() {
                <p className='demo-description'>
                   Donde la temporada, moda y tendencias son lo primordial para maximizar ventas, la información de series de tiempo es invaluable para este negocio.
                </p>
-               <a href={'http://' + window.location.host.replace(/:[0-9][0-9][0-9][0-9]/, '') + ':8563'} 
+              <a href={'http://registry.sbr-mx.com:8563'} 
                   rule='noopener noreferer' target='_blank' className='demos-item'>
                   <p>Ir a demo</p>
                </a>
